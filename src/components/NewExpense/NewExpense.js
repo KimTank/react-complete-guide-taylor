@@ -11,8 +11,6 @@ const NewExpense = (props) => {
       //유일한 값은 아니나 데모버전에서는 상관없음
       id: Math.random().toString()
     };
-    console.log('in NewExpense.js');
-    console.log(expenseData);
     props.onAddExpense(expenseData);
   };
   return (
