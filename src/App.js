@@ -2,6 +2,7 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
+  //dumyData
   const expenses = [
     {
       id: "e1",
@@ -29,6 +30,7 @@ const App = () => {
     },
   ];
 
+  //입력부인 newExpense를 통해 인자 전달받음
   const addExpenseHandler = expense => {
       console.log('In App.js');
       console.log(expenses);

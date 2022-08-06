@@ -50,6 +50,7 @@ const ExpenseFrom = (props) => {
     // });
   };
 
+  //자식뷰에서 submit을 통해 부모뷰로 전달받는 인자
   const submitHandler = (event) => {
     event.preventDefault();
 
